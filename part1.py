@@ -7,7 +7,7 @@ n=len(dataset)
 mse=0
 gatecount=0
 
-# Functions 'encode' and 'decode' are dummy.
+# Functions encode image
 def encode(image):
     q = qiskit.QuantumRegister(3)
     circuit = qiskit.QuantumCircuit(q)
@@ -15,6 +15,7 @@ def encode(image):
         circuit.rx(np.pi,0)
     return circuit
 
+# function decode histogram
 def decode(histogram):
     if 1 in histogram.keys():
         image=[[0,0],[0,0]]
@@ -22,6 +23,7 @@ def decode(histogram):
         image=[[1,1],[1,1]]
     return image
 
+# function to run part 1
 def run_part1(image):
     #encode image into a circuit
     circuit=encode(image)
@@ -32,6 +34,7 @@ def run_part1(image):
     #reconstruct the image
     image_re=decode(histogram)
 
+# return circuit and image
     return circuit
     return image_re
 
