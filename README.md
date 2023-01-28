@@ -2,8 +2,7 @@
 
 Github Username: adnaanchida
 
-Adnaan Chida
-adnaan.chida@gmail.com
+Adnaan Chida - adnaan.chida@gmail.com
 
 Team Members and email address: 
 
