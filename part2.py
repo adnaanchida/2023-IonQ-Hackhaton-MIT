@@ -3,13 +3,16 @@
 
 # part 2
 
+# function to encode image
 def encode(image):
     circuit=cirq.Circuit()
+    # if statement for image 
     if image[0][0]==0:
         circuit.append(cirq.rx(np.pi).on(cirq.LineQubit(0)))
+    # return circuit
     return circuit
 
-
+# function to run part 2 with image parametet
 def run_part2(image):
 
     #load the quantum classifier circuit
