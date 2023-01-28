@@ -1,3 +1,1 @@
-# ubiquitous-parakeet
-
-MIT IonQ iQuHACK
+2023-IonQ-Hackhaton-MIT
