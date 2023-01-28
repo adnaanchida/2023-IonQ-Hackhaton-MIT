@@ -1,3 +1,3 @@
-# ubiquitous-parakeet
+# scaling-octo-giggle
 
-IQuHACK IonQ MIT Hackhaton
+MIT IonQ iQuHACK
